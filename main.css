@@ -1,0 +1,191 @@
+body /* */
+{
+  padding: 0;
+  margin: 0;
+  font-family: 'Anton';
+  color: 000;
+  font-size: 16px;
+}
+
+h1,h2,h4,h5 /* правило для специального заголовка */
+{
+  padding: 0;
+  margin: 0;
+  text-transform: uppercase; /* буквы становятся все капс локом */
+  color: white;
+}
+
+p
+{
+  margin: 0;
+
+}
+
+ul,li
+{
+display: block;
+padding: 0;
+}
+
+.container
+{
+  width: 1170px;
+  margin: 0 auto; /* позиция по центру*/
+}
+
+.header
+{
+background: url('img/logo.jpg')  left top ; /* посылание на картинку бекграунда*/
+
+padding-top: 30px;
+padding-bottom: 20px;
+
+}
+
+.event
+{
+  display: center;
+}
+
+.box
+{
+  width: 100px;
+  height: 100px;
+}
+
+header a
+{
+color: white;
+}
+
+.menu
+{
+  display: flex;  /* выравние все в одную линию */
+
+}
+
+.menu li a
+{
+text-transform:uppercase; /* все капс локом */
+text-decoration: none; /* без подчеркиваний */
+letter-spacing: 0.1em; /* 0.1 пикселя между буквами */
+padding-left: 30px;
+}
+
+.menu li
+{
+margin-right: 30px; /* расстояние в 40 пкс вправо */
+}
+
+.tel
+{
+  font-size: 17px;
+  text-decoration: none; /* без подчеркиваний */
+  margin-left: auto; /* в левый край */
+  letter-spacing: 0.1em; /* 0.1 пикселя между буквами */
+}
+
+.nav
+{
+  display: flex;
+  align-items: center; /* шампур. чтобы все элементы меню были под одной линицей */
+  padding-top: 30px; /* отступ сверху  */
+}
+
+.offer
+{
+text-transform: uppercase;
+padding: 30px;
+}
+
+.offer p
+{
+  font-size: 30px;
+}
+
+.offer h1
+{
+  font-size: 100px;
+  margin-bottom: 19px;
+  margin-top: -9px;
+  letter-spacing: 0.02em;
+
+}
+
+.btn
+{
+font-size: 17px;
+text-align: center;
+letter-spacing: 0.1em;
+padding: 17px 47px;
+border: 1px solid;
+width: 238px;
+text-decoration: none;
+}
+
+ h2
+{
+  margin-bottom: 9px;
+  font-size: 50px;
+}
+
+h3
+{
+  color: black;
+}
+
+.section
+{
+  padding-top: 113px;
+}
+
+.description
+{
+display: flex;
+justify-content: space-between; /* описание сделано так, чтобы левая часть была слева, а правая в правой   */
+padding-right: 5px;
+
+}
+.description p
+{
+  font-family: 'Open Sans';
+  font-weight: 400;
+  line-height: 1.32 em;
+}
+
+.desc-left, .desc-right
+{
+  width: 567px;
+}
+
+.gallery
+{
+  margin-top: 67px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-text
+{
+
+  font-size: 15px;
+  font-family: 'Open Sans';
+  display: flex;
+  padding: 114px 0;
+}
+
+
+
+.footer-text p
+{
+margin-left: auto;
+}
+
+img
+{
+  border-radius: 15px; /* скругление картинки */
+  overflow: hidden; /* спрятать границы оргинала */
+  padding: 0px 10px 0px 10px;
+  display: flex;
+
+}
